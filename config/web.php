@@ -5,6 +5,8 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
+//    'catchAll' => ['site/offline'],
+//    'defaultRoute' => '/site/landing',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -58,7 +60,7 @@ $config = [
 		        [
 			        'pattern' => 'contact',
 			        'route' => 'site/contact',
-			        'suffix' => '.html',
+//			        'suffix' => '.html',
 		        ],
 		        '<controller:\w+>/<id:\d+>' => '<controller>/view',
 		        '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',

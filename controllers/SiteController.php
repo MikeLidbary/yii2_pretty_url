@@ -125,4 +125,20 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionLanding(){
+	    return $this->render('landing');
+    }
+
+	public function actionOffline(){
+		return $this->render('offline');
+	}
+
+	public function actionView($id){
+		echo $id;
+	}
+
+	public function actionUpdate( $id ) {
+		echo "update ".$id;
+	}
 }
