@@ -10,3 +10,5 @@ Implementing pretty and SEO friendly URLs in Yii2 application
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 - Run ```Composer install``` in your terminal to install dependencies
+- Follow the tutorial https://www.talwork.net/implementing-pretty-and-seo-friendly-urls-in-yii2-application
+
